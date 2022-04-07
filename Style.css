@@ -1,0 +1,160 @@
+#WBpage{
+    margin: 0px 300px 0px 300px;
+    width: max-content;
+}
+#NavigationBar{
+    background-color:gray;
+    border: solid black;
+    color:black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 40px 0px 40px;
+    height: 100px;
+    
+}
+#Dojonary{
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+
+}
+#SearchBar{
+    display: flex;
+    align-items: center;
+}
+#Login{
+    display: flex;
+    align-items: center;
+}
+#Section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+#C1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+.Wsection{
+    border: solid black;
+    padding: 10px;
+    display:flex;
+    flex-direction: row;
+    margin-top: 40px;
+    height: 250px;
+    align-items: center;
+}
+.Rside{
+    margin-right: 20px;
+    width: 200px;
+    align-items: flex-end;
+}
+.Word{
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+
+}
+.PoS{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    height: 50px;
+}
+.Plural{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+.Likes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Lside{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    font-size: 20px;
+    width: 400px;
+    padding: 20px;
+}
+.Definition{
+    flex-flow: row wrap;
+    font-size: x-large;
+
+}
+#C2{
+    display: flex;
+    flex-direction: column;
+}
+#ASection{
+    border: solid black;
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+    margin-top: 40px;
+    height: 250px;
+    align-items: center;
+}
+#AText{
+    font-size: 40px;
+    width: 400px;
+    display: flex;
+    flex-flow: row wrap;
+}
+#AddDefinition{
+    display: block;
+}
+.AddButton{
+    width: 100%;
+    border: black solid;
+    background-color: green;
+    color: white;
+    padding: 14px 28px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+.AddButton:hover {
+    background-color: lightgray;
+    color: black;
+}
+.LikesButton{
+    width: 100%;
+    border: black solid;
+    background-color: yellow;
+    color: black;
+    padding: 14px 28px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+.LikesButton:hover {
+    background-color:lightgray;
+    color: black;
+}
+.LoginButton{
+    width: 100%;
+    border: black solid;
+    background-color: blue;
+    color: white;
+    padding: 14px 28px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+.LoginButton:hover {
+    background-color: lightgray;
+    color: black;
+}
+
+
